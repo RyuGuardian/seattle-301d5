@@ -1,23 +1,12 @@
-# Assignment for Class 10 - Pair Project
+# Class 10 - Recap
 
-Apply what you've learned. With a pair, dive into a new code base. Learn your way around, and refactor the app with the principles you've learned over the past 2 weeks.
+- Please review the requirements for today's assignment in the corresponding "pair-assignment" directory.
+- We have included a "past-projects" file in this directory that demo's a few of the final projects from previous cohorts. Please review these to get an idea of what you might want to do for your final project.  Remember, proper planning can often times be the determining factor of a successful project!
 
-## Pairing
-Work as collaborators on a single repo.
-1. Make a single fork of the project you are working on.
-- Add your pair as collaborator.
-- Alternate driver/navigator roles with each major feature.
-- Create, review, and merge a Pull Request for each feature, as you switch roles.
-
-
-## User Stories
-Write your own user stories as you explore the new code base.
-
-## Technical Requirements and Grading Rubric
- - Use jQuery for all DOM and event listener code.
- - Make good use of SMACSS principles.
- - Use templates wherever possibile.
- - Use mobile-first principles where you can.
- - Make the site responsive, for mobile and desktop.
- - Persist any user-generated data and user selections.
- - Use AJAX to load any significant data sources.  - Cache data where appropriate.
+## Class Videos
+ - [Part 1 of 4](https://youtu.be/Oe2PlbhjulQ)
+ - [Part 2 of 4](https://youtu.be/jjzLc6l5Jv8)
+ - [Part 3 of 4](https://youtu.be/IPmSqQt6HfM)
+ - [Part 4 of 4](https://youtu.be/ikIjMKwUe0E)
+ - [Afternoon CSS with Brian 1 of 2] (https://youtu.be/vpg9L-nDjD0)
+ - [Afternoon CSS with Brian 2 of 2] (https://youtu.be/L0AjwB7gZBI)

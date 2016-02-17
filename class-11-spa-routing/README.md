@@ -6,3 +6,9 @@ At the heart of every web app is the Web Request-Response Cycle. Pay close atten
 - What is a Single-Page Application (SPA), with live demo: http://www.johnpapa.net/pageinspa/
 - Gallery of example SPAs: https://onepagelove.com/gallery/application
 - Page.js docs: https://visionmedia.github.io/page.js
+
+## Class Videos
+ - [Part 1 of 3](https://youtu.be/AlsSmNuxRYc)
+ - [Part 2 of 3](https://youtu.be/8EJOJVzQMSQ)
+ - [Part 3 of 3](https://youtu.be/qFAl5xoTt9M)
+ 
