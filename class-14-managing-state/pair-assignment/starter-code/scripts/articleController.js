@@ -7,7 +7,7 @@
     articleView.index(ctx.articles);
   };
 
-  // TODO: Middleware for grabbing one article by ID:
+  // COMMENT: What does this method do?  What is it's execution path?
   articlesController.loadById = function(ctx, next) {
     var articleData = function(article) {
       ctx.articles = article;
@@ -17,7 +17,7 @@
     Article.findWhere('id', ctx.params.id, articleData);
   };
 
-  // TODO: Middleware for loading up articles by a certain author:
+  // COMMENT: What does this method do?  What is it's execution path?
   articlesController.loadByAuthor = function(ctx, next) {
     var authorData = function(articlesByAuthor) {
       ctx.articles = articlesByAuthor;
@@ -27,7 +27,7 @@
     Article.findWhere('author', ctx.params.authorName.replace('+', ' '), authorData);
   };
 
-  // TODO: Middleware for grabbing all articles with a certain category:
+  // COMMENT: What does this method do?  What is it's execution path?
   articlesController.loadByCategory = function(ctx, next) {
     var categoryData = function(articlesInCategory) {
       ctx.articles = articlesInCategory;
@@ -37,7 +37,7 @@
     Article.findWhere('category', ctx.params.categoryName, categoryData);
   };
 
-  // TODO: Middleware for grabbing ALL articles:
+  // COMMENT: What does this method do?  What is it's execution path?
   articlesController.loadAll = function(ctx, next) {
     var articleData = function(allArticles) {
       ctx.articles = Article.all;

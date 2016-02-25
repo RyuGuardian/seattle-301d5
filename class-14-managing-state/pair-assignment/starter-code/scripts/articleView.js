@@ -12,8 +12,7 @@
     return template(article);
   };
 
-  // TODO: Stretch goal: Refactor to push this unique-check logic into the database.
-  // Move any HTML into a template, in the HTML file where it belongs.
+  // COMMENT: What does this method do?  What is it's execution path?
   articleView.populateFilters = function() {
     var options,
       template = Handlebars.compile($('#option-template').text());
@@ -38,8 +37,7 @@
     });
   };
 
-  // TODO: Combine both filter functions to a single event handler,
-  // which simply redirects to a url like: /category/skateboarding or /author/Kevin+Bacon
+  // COMMENT: What does this method do?  What is it's execution path?
   articleView.handleFilters = function() {
     $('#filters').one('change', 'select', function() {
       resource = this.id.replace('-filter', '');
@@ -72,7 +70,7 @@
   //   });
   // };
 
-  // TODO: Remove the setTeasers method, and replace with a plain ole link in the article template.
+  // DONE: Remove the setTeasers method, and replace with a plain ole link in the article template.
   // articleView.setTeasers = function() {
   //   $('.article-body *:nth-of-type(n+2)').hide();
   //
@@ -119,8 +117,7 @@
     $('#article-json').val(JSON.stringify(article) + ',');
   };
 
-  // TODO: Refactor this method so it works with any number of articles.
-  // Also, it should be idempotent, so it can be run multiple times with identical results.
+  // COMMENT: What does this method do?  What is it's execution path?
   articleView.index = function(articles) {
     $('#articles').show().siblings().hide();
 
@@ -130,11 +127,8 @@
     });
 
     articleView.populateFilters();
-    // TODO: Call the new unified filter handler function
+    // COMMENT: What does this method do?  What is it's execution path?
     articleView.handleFilters();
-    // articleView.handleCategoryFilter();
-    // articleView.handleAuthorFilter();
-    // articleView.setTeasers();
 
     // DONE: Replace setTeasers with just the truncation logic, if needed:
     if ($('#articles article').length > 1) {
