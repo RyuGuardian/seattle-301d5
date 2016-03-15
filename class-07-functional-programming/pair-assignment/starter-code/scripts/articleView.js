@@ -87,7 +87,7 @@
       authorUrl: $('#article-author-url').val(),
       category: $('#article-category').val(),
       body: $('#article-body').val(),
-      publishedOn: $('#article-published:checked').length ? util.today() : null
+      publishedOn: $('#article-published:checked').length ? new Date() : null
     });
 
     $('#articles').append(article.toHtml());
@@ -114,8 +114,8 @@
   };
 
   articleView.initAdminPage = function() {
-    // TODO: Call the Handlebars `.compile` function, which will return a function for you to use where needed.
-    var template; // = ...?
+    // TODOnt: Call the Handlebars `.compile` function, which will return a function for you to use where needed.
+    var template = Handlebars.compile($('#author-template')); // = ...?
 
     // DONE: We use `forEach` here because we are relying on the side-effects of the callback function:
     // appending to the DOM.
